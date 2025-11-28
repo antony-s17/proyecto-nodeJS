@@ -1,0 +1,18 @@
+{
+  "name": "proyecto-1",
+  "version": "1.0.0",
+  "description": "Proyecto 1",
+  "keywords": [
+    "['express.js']"
+  ],
+  "license": "MIT",
+  "author": "Antony Salas <salasra1795@gmail.com>",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
