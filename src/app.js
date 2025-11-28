@@ -50,7 +50,7 @@ app.post('/form',(req, res) => {
     })
 })
 
-//Responder con codigos de http
+//Responder con codigos de http (api rest)
 app.post('/api/data', (req, res) => {
     const data = req.body;
     
