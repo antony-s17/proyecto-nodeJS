@@ -10,9 +10,12 @@
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
+    "dev": "node --watch src/app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.1.0"
   }
 }
